@@ -123,7 +123,7 @@ If you encounter any issues:
 ### 1. Clone and enter the project
 ```bash
 git clone https://github.com/yash-fifadra/ResearchUP-chat-with-pdf--RAG.git
-cd your-repo-name
+cd ResearchUP-chat-with-pdf--RAG
 ```
 
 ### 2. Create and activate virtual environment (recommended)
