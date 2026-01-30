@@ -117,3 +117,41 @@ If you encounter any issues:
 2. Ensure all dependencies are properly installed
 3. Verify your API key is correct
 4. Check the console for detailed error messages
+
+## Quick Start
+
+### 1. Clone and enter the project
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+### 2. Create and activate virtual environment (recommended)
+```bash
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# macOS / Linux
+source venv/bin/activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set GROQ API keys
+Create a `.env` file in the project root:
+```env
+GROQ_API_KEY_1=your_first_groq_api_key
+GROQ_API_KEY_2=your_second_groq_api_key   # optional but recommended
+```
+
+### 5. Run the app
+```bash
+streamlit run app.py
+```
+
+Then open the URL shown in the terminal (usually `http://localhost:8501`), upload your research PDFs, click **Process**, read the summary, and start asking questions.
